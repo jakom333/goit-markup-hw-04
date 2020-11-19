@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>goit-markup-hw-03</title>
+  <title>goit-markup-hw-04</title>
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,7 +15,7 @@
 
 <body>
   <header class="header">
-    <div class="container align">
+    <div class="container align-header">
       <nav class="main-nav">
         <a class="logo-header" href="./index.html"><span class="logo-color">Web</span>Studio</a>
 
@@ -50,28 +50,28 @@
     <section class="features">
       <div class="container">
         <ul class="list">
-          <li class="properties">
+          <li class="properties icon-antenna">
             <h3 class="title">Внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="properties">
+          <li class="properties icon-clock">
             <h3 class="title">Пунктуальность</h3>
             <p class="text">
               Задача организации, в особенности же рамки и место обучения
               кадров влечет за собой.
             </p>
           </li>
-          <li class="properties">
+          <li class="properties icon-diagram">
             <h3 class="title">Планирование</h3>
             <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="properties">
+          <li class="properties icon-astronaut">
             <h3 class="title">Современные технологии</h3>
             <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -88,13 +88,13 @@
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="list">
           <li class="item">
-            <img src="./images/img1.jpg" alt="разработка для пк" width="370" height="294" />
+            <img src="./images/activity/img1.jpg" alt="разработка для пк" width="370" height="294" />
           </li>
           <li class="item">
-            <img src="./images/img2.jpg" alt="разработка мобильных версий" width="370" height="294" />
+            <img src="./images/activity/img2.jpg" alt="разработка мобильных версий" width="370" height="294" />
           </li>
           <li class="item">
-            <img src="./images/img3.jpg" alt="разработка для планшетных версий" width="370" height="294" />
+            <img src="./images/activity/img3.jpg" alt="разработка для планшетных версий" width="370" height="294" />
           </li>
         </ul>
       </div>
@@ -106,22 +106,52 @@
         <h2 class="title">Наша команда</h2>
         <ul class="list">
           <li class="cards">
-            <img src="./images/img4.jpg" alt="Игорь Демьяненко" width="270" />
+            <img src="./images/team/img4.jpg" alt="Игорь Демьяненко" width="270" />
             <h3 class="employee">Игорь Демьяненко</h3>
             <p class="profession">Product Designer</p>
+            <ul class="social list">
+              <li class="list-item">
+                <a class="social-link" href="">
+                  <svg class="social-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="social-link" href="">
+                  <svg class="social-icon">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="social-link" href="">
+                  <svg class="social-icon">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="social-link" href="">
+                  <svg class="social-icon">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="cards">
-            <img src="./images/img5.jpg" alt="Ольга Репина" width="270" />
+            <img src="./images/team/img5.jpg" alt="Ольга Репина" width="270" />
             <h3 class="employee">Ольга Репина</h3>
             <p class="profession">Frontend Developer</p>
           </li>
           <li class="cards">
-            <img src="./images/img6.jpg" alt="Николай Тарасов" width="270" />
+            <img src="./images/team/img6.jpg" alt="Николай Тарасов" width="270" />
             <h3 class="employee">Николай Тарасов</h3>
             <p class="profession">Marketing</p>
           </li>
           <li class="cards">
-            <img src="./images/img7.jpg" alt="Михаил Ермаков" width="270" />
+            <img src="./images/team/img7.jpg" alt="Михаил Ермаков" width="270" />
             <h3 class="employee">Михаил Ермаков</h3>
             <p class="profession">UI Designer</p>
           </li>
@@ -131,7 +161,7 @@
   </main>
 
   <footer>
-    <div class="container">
+    <div class="container align-footer">
       <div class="footer-block">
         <a class="logo-footer" href="./index.html"><span class="logo-color">Web</span>Studio</a>
 
