@@ -117,7 +117,7 @@ img {
 }
 
 .site-contacts .link {
-  display: block;
+  display: flex;
 
   font-weight: 500;
   font-size: 14px;
@@ -125,11 +125,17 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  fill: var(--secondary-text-color);
 }
 
 .site-contacts .link:hover,
 .site-contacts .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.icon-contacts {
+  margin-right: 10px;
 }
 
 /* footer */
@@ -188,4 +194,31 @@ footer {
 .contacts-footer:hover,
 .contscts-footer:focus {
   color: var(--accent-color);
+}
+
+.social-footer {
+  margin-left: 70px;
+}
+
+.social-footer .title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.social-footer .social {
+  display: flex;
+}
+
+.social-link.dark-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon.light {
+  fill: var(--white-color);
 }
